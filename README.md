@@ -1,2 +1,3 @@
 # datun.github.io
-Personal website (to be detailed further)
+Fresh start of a website of my own design by using a basic template.
+(credits and licenses will be written after finalising)
