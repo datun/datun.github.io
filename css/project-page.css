@@ -18,3 +18,9 @@
 	font-weight: bold;
 	font-size: 3rem;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  right: 5%;
+}
