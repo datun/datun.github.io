@@ -11,5 +11,5 @@ Fresh start of a website of my own design by using a basic template.
   - [Simple Icons](https://simpleicons.org/)
   - [Fontello](http://fontello.com/) for bundling additional icons from Simple Icons
 - **Images:**
-  - Main Page Header Image by [Adrian Valeanu](https://pixabay.com/photos/cup-of-coffee-laptop-office-macbook-1280537/) from Pixabay
+  - Main Page Header Image by [Pexels](https://pixabay.com/photos/adventure-ice-cave-cold-exploration-1850094/) from Pixabay
   - Projects Header Image by Image by [cromaconceptovisual](https://pixabay.com/photos/vivid-abstract-bright-illuminated-3079201/) from Pixabay
