@@ -1,0 +1,58 @@
+---
+title: Projects
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+
+
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+
+
+
+  <body>
+  {% include navigation.html %}
+
+
+  <section>
+          <table>
+                  {% for prj in site.data.projects %}
+                  <tr>
+                          <td>
+				  <b>{{ prj.title }}</b><br>
+				  <a href="{{ prj.url }}">Link!</a>
+                          </td>
+                  </tr>
+		  <tr>
+			  <td>
+				  <img src="{{ prj.img }}" alt="{{ prj.img_desc}}">
+			  </td>
+		  </tr>
+		  <tr>
+			  <td>
+			  {% for item in prj.tech %}
+			  <p>{{ item }}</p>
+			  {% endfor %}
+			  </td>
+		  </tr>
+		  <tr>
+			  <td>
+				  {{ prj.desc }}
+			  </td>
+		  </tr>
+                  {% endfor %}
+          </table>
+  </section>
+
+
+  </body>
+</html>
+
+
