@@ -1,0 +1,19 @@
+- group: Software
+  name: 
+  - SWIFT Alliance Suite
+
+- group: Development
+  name: 
+  - Python
+  - Bash
+  - Git
+
+- group: OS
+  name: 
+  - Linux
+  - MS Windows
+
+- group: Tools
+  name: 
+  - Ansible
+  - OpenSSL

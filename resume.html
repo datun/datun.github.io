@@ -1,0 +1,125 @@
+---
+title: Resume
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+
+  <body>
+  {% include navigation.html %}
+  <section>
+
+	  <table>
+		  {% for edu in site.data.education %}
+		  <tr>		
+			  <td>
+			  
+				  <p>
+				  {{ edu.end_date }}<br>
+				  {{ edu.start_date }}
+				  </p>
+			  </td>
+			  <td>
+				  <b>{{ edu.title }}</b><br>
+				  <i>{{ edu.loc }}</i>
+			  </td>
+		  </tr>
+		  {% endfor %}
+	  </table>
+  </section>
+
+  <section>
+	  <table>
+		  {% for exp in site.data.experience %}
+		  <tr>
+			  <td>
+				  <p>
+				  {{ exp.end_date }}<br>
+				  {{ exp.start_date }}
+				  </p>
+			  </td>
+			  <td>
+				  <b>{{ exp.title }}</b><br>
+				  <i>{{ exp.company }}</i>
+			  </td>
+		  </tr>
+		  <tr>
+			  <td><!--- Spacer --->
+			  </td>
+			  <td>
+				  <p>{{ exp.desc }}</p>
+			  </td>
+		  </tr>
+		  {% endfor %}
+	  </table>
+  </section>
+
+  <section>
+	  <table>
+		  <tr>
+			  {% for skl in site.data.skills %}
+			  <th>
+				  {{ skl.group }}
+			  </th>
+			  {% endfor %}
+		  </tr>
+		  <tr>
+			  {% for skl in site.data.skills %}
+			  <td>
+				  <ul>
+					  {% for item in skl.name %}
+					  <p>{{ item }}</p>
+					  {% endfor %}
+				  </ul>
+			  </td>
+			  {% endfor %}
+		  </tr>
+	  </table>
+  </section>
+ 
+  <section>
+	  <table>
+		  {% for cert in site.data.certificates %}
+		  <tr>
+			  <td>
+				  <b>{{ cert.title }}</b>
+			  </td>
+			  <td>
+				  {{ cert.company }}<br>
+				  <i>{{ cert.type }}</i>
+			  </td>
+		  </tr>
+		  {% endfor %}
+	  </table>
+  </section>
+
+  <section>
+	  <table>
+		  <tr>
+			  {% for lang in site.data.languages %}
+			  <td>
+				  <b>{{ lang.lang }}</b>
+			  </td>
+			  {% endfor %}
+		  </tr>
+		  {% for lang in site.data.languages %}
+		  <td>
+			  {{ lang.level }}
+		  </td>
+		  {% endfor %}
+	  </table>
+  </section>
+
+  </body>
+</html>
+
+
