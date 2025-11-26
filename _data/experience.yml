@@ -1,29 +1,50 @@
 - title: SWIFT Engineer
   company: Euroclear
-  end_date: ...
+  end_date: Today
   start_date: July 2023
-  desc:
+  desc: >- 
+    Lorem ipsum dolor sit amet consectetur adipiscing elit. 
+    Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
+    Ex sapien vitae pellentesque sem placerat in id. 
+    Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
 
 - title: Technical Data Engineer
   company: BNP Paribas Fortis
   end_date: Jan 2023
   start_date: Jul 2022
-  desc:
+  desc: >- 
+    Lorem ipsum dolor sit amet consectetur adipiscing elit. 
+    Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
+    Ex sapien vitae pellentesque sem placerat in id. 
+    Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
 
 - title: Security Engineer Intern
   company: SWEAGLE
   end_date: Sep 2019
   start_date: Jul 2019
-  desc:
+  desc: >- 
+    Lorem ipsum dolor sit amet consectetur adipiscing elit. 
+    Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
+    Ex sapien vitae pellentesque sem placerat in id. 
+    Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
 
 - title: Full Stack Developer Intern
   company: METU Computer Center
   end_date: Dec 2017
   start_date: Oct 2017
-  desc:
+  desc: >- 
+    Lorem ipsum dolor sit amet consectetur adipiscing elit. 
+    Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
+    Ex sapien vitae pellentesque sem placerat in id. 
+    Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
 
 - title: Community Manager
   company: METU eSports Society
   end_date: Jun 2016
   start_date: Feb 2014
-  desc:
+  desc: >- 
+    Lorem ipsum dolor sit amet consectetur adipiscing elit. 
+    Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
+    Ex sapien vitae pellentesque sem placerat in id. 
+    Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
+
