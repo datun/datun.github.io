@@ -1,0 +1,14 @@
+body{
+	font-family:"Win95"
+}
+table{
+	background-color: silver;
+	box-shadow: inset -1px -1px black,
+	inset 0.5px 0.5px silver,
+	inset 1.5px 1.5px white;
+}
+#title{
+	background-color: darkblue;
+	color: white;
+}
+
