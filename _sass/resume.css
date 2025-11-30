@@ -1,0 +1,11 @@
+#date {                        
+        text-align: end;                        
+        vertical-align: top;        
+        width: 90px;
+}                
+#semi-pad {                        
+        padding: 10px 10px 0px 10px;
+}                
+td {                        
+        padding: 0px 10px;
+}

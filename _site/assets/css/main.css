@@ -1,7 +1,43 @@
+@font-face {
+  font-family: "JetbrainsMono";
+  src: url("../fonts/JetbrainsMono.woff2") format("woff2");
+}
 body {
   background: #ffffff;
   color: #000000;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "JetbrainsMono", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+section {
+  max-width: 792px; /* 99 char max */
+}
+
+h1 {
+  font-size: 1.8em;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1.5px;
+}
+
+h2 {
+  font-size: 1.25em;
+  margin: 0px 0px;
+}
+
+@font-face {
+  font-family: "ComicRelief";
+  src: url("../fonts/ComicRelief.ttf") format("TrueType");
+}
+@font-face {
+  font-family: "Win95";
+  src: url("../fonts/w95fa.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JetbrainsMono";
+  src: url("../fonts/JetbrainsMono.woff2") format("woff2");
+}
+@font-face {
+  font-family: "JetbrainsMono-Bold";
+  src: url("../fonts/JetbrainsMono-Bold.woff2") format("woff2");
 }
 
 /*# sourceMappingURL=main.css.map */

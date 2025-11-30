@@ -2,4 +2,26 @@
 ---
 
 @import "base";
+@import "generic";
 
+@font-face {
+  font-family: "ComicRelief";
+  src: url("../fonts/ComicRelief.ttf") format("TrueType");
+}
+
+
+@font-face {
+  font-family: "Win95";
+  src: url("../fonts/w95fa.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: "JetbrainsMono";
+  src: url("../fonts/JetbrainsMono.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "JetbrainsMono-Bold";
+  src: url("../fonts/JetbrainsMono-Bold.woff2") format("woff2");
+}

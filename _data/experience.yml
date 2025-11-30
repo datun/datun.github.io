@@ -3,48 +3,57 @@
   end_date: Today
   start_date: July 2023
   desc: >- 
-    Lorem ipsum dolor sit amet consectetur adipiscing elit. 
-    Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
-    Ex sapien vitae pellentesque sem placerat in id. 
-    Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
-
+    System Admin stuff.
+    
 - title: Technical Data Engineer
   company: BNP Paribas Fortis
   end_date: Jan 2023
   start_date: Jul 2022
+  desc: >-
+    With the masters education that covered Big Data, I was employed
+    to bridge the gap and help with transition from traditional business
+    intelligence to big data technologies. For this purpose, I learned
+    Apache Suite tools that are used in BNPPF and created learning
+    materials for on-boarding of new employees.
+
+- title: Consultant
+  company: Projective Group Talent
+  end_date: Aug 2025
+  start_date: Jul 2022
   desc: >- 
-    Lorem ipsum dolor sit amet consectetur adipiscing elit. 
-    Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
-    Ex sapien vitae pellentesque sem placerat in id. 
-    Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
+    As a consultant on Talent program, I was assigned on missions with the 
+    end goal of integrating towards said company. During this process, 
+    I've completed Start Smart Programme and attended to Grow Smart Programme.
+    These programmes provided various soft skill trainings and methodology 
+    trainings towards IT work environment.
 
 - title: Security Engineer Intern
   company: SWEAGLE
   end_date: Sep 2019
   start_date: Jul 2019
   desc: >- 
-    Lorem ipsum dolor sit amet consectetur adipiscing elit. 
-    Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
-    Ex sapien vitae pellentesque sem placerat in id. 
-    Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
+    In this non-mandatory internship, I was tasked with improving the 
+    security of various components used in a SaaS application. This 
+    included implementation of self-signed certificates and improving
+    security ranking of company websites.
 
 - title: Full Stack Developer Intern
   company: METU Computer Center
   end_date: Dec 2017
   start_date: Oct 2017
   desc: >- 
-    Lorem ipsum dolor sit amet consectetur adipiscing elit. 
-    Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
-    Ex sapien vitae pellentesque sem placerat in id. 
-    Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
+    During this voluntary internship, I have laid foundations to create a 
+    student time table as a web application while providing perspective 
+    as a student. To achieve the above goal, first I learned how a large 
+    university structures their database and then created a base 
+    structure for the time table.
 
 - title: Community Manager
   company: METU eSports Society
   end_date: Jun 2016
   start_date: Feb 2014
   desc: >- 
-    Lorem ipsum dolor sit amet consectetur adipiscing elit. 
-    Consectetur adipiscing elit quisque faucibus ex sapien vitae. 
-    Ex sapien vitae pellentesque sem placerat in id. 
-    Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
-
+    In this student club, I have organised various events and 
+    tournaments for the subdivision of our club. Aside from that 
+    contributed in designing club jerseys and promoted relationships 
+    between members and management.
