@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    	{% if page.custom_css %}
+    	<link rel="stylesheet" href="{{ '/assets/css/' | append: page.custom_css | append: '.css' | relative_url }}">
+	{% endif %}
   </head>
   <body>
     {{ content }}

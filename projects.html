@@ -1,53 +1,54 @@
 ---
 title: Projects | DAtun
+layout: default
+custom_css: windowed-content 
 ---
 <!doctype html>
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/projects.css" | relative_url }}">
     <title>{{ page.title }}</title>
   </head>
   <body>
   {% include navigation.html %}
   <h1> Projects Title? </h1>
 
-
-  <section>
-          <table>
-                  {% for prj in site.data.projects %}
-                  <tr>
-                          <td>
-				  <section id="title"><b>{{ prj.title }}</b></section>
-			  </td>
-                  </tr>
-		  <tr>
-			  <td>
-				  <img src="{{ prj.img }}" alt="{{ prj.img_desc}}">
-			  </td>
-		  </tr>
-		  <tr>
-			  <td>
-				  <a href="{{ prj.url }}">Link!</a>
-			  </td>
-		  </tr>
-		  <tr>
-			  <td>
-			  {% for item in prj.tech %}
-			  <p>{{ item }}</p>
-			  {% endfor %}
-			  </td>
-		  </tr>
-		  <tr>
-			  <td>
-				  {{ prj.desc }}
-			  </td>
-		  </tr>
-                  {% endfor %}
-          </table>
-  </section>
-
+  {% for prj in site.data.projects %}
+  <div class="collapsible-section">
+	  <input id="toggle-{{ prj.id }}" class="toggle-checkbox" type="checkbox">
+	  <div class="section-header">
+		  <section id="title"><b>{{ prj.title }}</b></section>
+		  <label class="toggle-btn" for="toggle-{{ prj.id }}"></label>
+	  </div>
+	  <div class="section-content">
+		  <table>
+			  <tr>
+				  <td>
+					  <img src="{{ prj.img }}" alt="{{ prj.img_desc}}">
+				  </td>
+			  </tr>
+			  <tr>
+				  <td>
+					  <a href="{{ prj.url }}">Link!</a>
+				  </td>
+			  </tr>
+			  <tr>
+				  <td>
+					  {% for item in prj.tech %}
+					  <p>{{ item }}</p>
+					  {% endfor %}
+				  </td>
+			  </tr>
+			  <tr>
+				  <td>
+					  {{ prj.desc }}
+				  </td>
+			  </tr>  
+	  	</table>
+	  </div>
+  </div>
+  {% endfor %}
 
   </body>
 </html>
