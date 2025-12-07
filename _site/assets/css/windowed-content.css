@@ -1,0 +1,63 @@
+.collapsible-section {
+  font-size: 1.5em;
+  font-family: "Win95";
+  width: fit-content;
+  overflow: hidden;
+  background-color: silver;
+  box-shadow: inset -1px -1px black, inset 0.5px 0.5px silver, inset 1.5px 1.5px white;
+  padding: 5px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+}
+
+/* Hide the checkbox */
+.toggle-checkbox {
+  display: none;
+}
+
+/* Style the toggle button */
+.toggle-btn {
+  background: silver;
+  color: black;
+  margin: 2px;
+  padding: 0.8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: inset -1px -1px black, inset 0.5px 0.5px silver, inset 1.5px 1.5px white;
+}
+
+.toggle-btn:hover {
+  background: #f0f0f0;
+}
+
+/* Content styling */
+.section-content {
+  max-height: 500px;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+/* When checkbox is checked, collapse the content */
+.toggle-checkbox:checked ~ .section-content {
+  max-height: 0;
+}
+
+/* Change button text via pseudo-element */
+.toggle-checkbox:checked ~ .section-header .toggle-btn::after {
+  content: "+";
+}
+
+.toggle-checkbox:not(:checked) ~ .section-header .toggle-btn::after {
+  content: "_";
+}
+
+#title {
+  background-color: darkblue;
+  color: white;
+  padding: 1px;
+}
+
+/*# sourceMappingURL=windowed-content.css.map */
