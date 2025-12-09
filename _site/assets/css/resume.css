@@ -1,14 +1,14 @@
-#date {                        
+#date{                        
         text-align: end;                        
         vertical-align: top;        
-        width: 90px;
-}                
-#semi-pad {                        
+        width: 100px;
+}
+#semi-pad{                        
         padding: 10px 10px 0px 10px;
 }                
-td {                        
+td{                        
         padding: 0px 10px;
 }
-b {
+b{
 	font-family: "JetbrainsMono-Bold";
 }

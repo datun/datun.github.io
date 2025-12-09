@@ -1,5 +1,4 @@
 .collapsible-section {
-  font-size: 1.5em;
   font-family:"Win95";
   width: fit-content;
     overflow: hidden;
@@ -8,6 +7,7 @@
     inset 0.5px 0.5px silver,
     inset 1.5px 1.5px white;
     padding: 5px;
+    margin: 10px;
 }
 
 .section-header {
@@ -25,6 +25,7 @@
     background: silver;
     color: black;
     margin: 2px;
+    margin-left: 4px;
     padding: 0.8px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -62,5 +63,8 @@
         background-color: darkblue;
         color: white;
         padding: 1px;
+        width: -moz-available;
+        width: -webkit-fill-available;
+        width: fill-available;
 }
 

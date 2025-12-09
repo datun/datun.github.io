@@ -18,11 +18,10 @@ title: Resume | DAtun
 	  <table>
 		  {% for edu in site.data.education %}
 		  <tr>		
-			  <td>
-			  
+			  <td id="date">
 				  <p>
-				  {{ edu.end_date }} -<br>
-				  {{ edu.start_date }}
+				  {{ edu.end_date }}<br>
+				  - {{ edu.start_date }}
 				  </p>
 			  </td>
 			  <td>
@@ -41,8 +40,8 @@ title: Resume | DAtun
 		  <tr>
 			  <td id="date">
 				  <section>
-				  {{ exp.end_date }} -<br>
-				  {{ exp.start_date }}
+				  {{ exp.end_date }}<br>
+				  - {{ exp.start_date }}
 				  </section>
 			  </td>
 			  <td>
