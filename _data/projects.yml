@@ -1,8 +1,41 @@
-- title: Learning Algorithm
-  id: 1
+- title: Batch CSV Processor
+  subtitle: Small script for Exellys
+  id: 4
   url: repo_link
   img: image_dir.png
   img_desc: image description
   tech: 
   - Python
+  - Batch
+  - Shell
+  desc: Lorem Ipsum Lorem
+
+- title: Multi-Objective Repeated Games with Strategy Based Payoffs
+  subtitle: Masters Thesis
+  id: 3
+  url: repo_link
+  img: image_dir.png
+  img_desc: image description
+  tech: 
+  - Python
+  desc: Lorem Ipsum Lorem
+
+- title: Minimax Algorithm with NIM Game
+  subtitle: VUB - Techniques of AI Project
+  id: 2
+  url: repo_link
+  img: image_dir.png
+  img_desc: image description
+  tech: 
+  - Python
+  desc: Lorem Ipsum Lorem
+
+- title: Contact Editor
+  subtitle: CENG301 - Algorithms and Data Structures Homework
+  id: 1
+  url: repo_link
+  img: image_dir.png
+  img_desc: image description
+  tech: 
+  - C
   desc: Lorem Ipsum Lorem
