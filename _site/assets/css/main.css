@@ -2,6 +2,10 @@
   font-family: "JetbrainsMono";
   src: url("../fonts/JetbrainsMono.woff2") format("woff2");
 }
+@font-face {
+  font-family: "JetbrainsMono-Bold";
+  src: url("../fonts/JetbrainsMono-Bold.woff2") format("woff2");
+}
 body {
   background: #ffffff;
   color: #000000;
