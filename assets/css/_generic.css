@@ -1,0 +1,12 @@
+section {
+	max-width: 792px; /* 99 char max */
+}
+h1 {
+	font-size: 1.8em;
+	text-decoration-line: underline;
+	text-decoration-thickness: 1.5px;
+}
+h2 {
+	font-size: 1.25em;
+	margin: 0px 0px;
+}
